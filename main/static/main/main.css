@@ -1,0 +1,9 @@
+.trades-names {
+    font-weight: bold;
+}
+.trades-values {
+    color: brown;
+}
+.main-table { 
+    width: 1000px; 
+}
