@@ -16,7 +16,7 @@ class Profile(models.Model):
             img.save(self.image.path)
 class Trades(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    coin = models.CharField(max_length=10)
+    coin = models.CharField(max_length=20)
     priceB = models.FloatField(blank=True, null=True)
     priceS = models.FloatField(blank=True, null=True)
     quantity = models.FloatField(blank=True, null=True)
